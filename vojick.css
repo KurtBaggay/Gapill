@@ -1,0 +1,146 @@
+*{
+    cursor:none;
+}
+body{
+    margin: 0;
+}
+
+header{
+    background-image: linear-gradient(#fff23a, #f7e708);
+    overflow: hidden;
+}
+
+header img{
+    float: left;
+}
+header h1{
+    font-family:trebuchet ms;
+    margin:0;
+    text-align: center;
+    padding-top: 40px;
+    color: #fcfaed;
+    font-size:3em;
+    text-shadow: 0px 4px 5px rgb(82, 82, 82);
+    transition:0.3s;
+}
+#sticker{
+    position: sticky;
+    top:0;
+}
+
+#scrollie{
+    height:7px;
+    width:0%;
+
+    background-image: linear-gradient(#90e20c, #7dc20d);
+}
+
+nav{
+    background-image: linear-gradient(#9accec,#5da5d1);
+    height:auto;
+    overflow:hidden;
+}
+
+nav ul{
+    margin:0;
+    padding:0;
+    text-align: right;
+}
+
+nav li{
+    display: inline;
+    list-style-type:none;
+}
+
+nav a{
+    display:inline-block;
+    padding: 20px 30px;
+    border-left: 2px solid rgb(58, 99, 143);
+    text-decoration: none;
+    margin:4px;
+    font-family:verdana;
+    color: whitesmoke;
+    font-weight:600;
+    text-shadow: 0px 2px 2px #545;
+    transition:0.2s;
+    
+}
+
+#sticker button{
+    position:absolute;
+    left: 45%;
+    margin-top:12px;
+    display: none;
+    padding:5px 30px;
+    border-radius: 10px;
+    border: none;
+    background-color:slategray;
+}
+
+img{
+    pointer-events:none;
+}
+
+#wallpaper1{
+    height: 800px;
+    padding-top: 80px;
+    padding-left: 10px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZHT7u-ucEwD3vUumoAHPCDWjiQTeevufwxwhSJO7lMwp9hgGs8g0X_Z0&s=10");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#cap{
+    font-size: 5em;
+    color: #fbfbfb;
+    text-shadow: 0px 2px 7px rgb(82, 82, 82);
+    font-family: Tahoma;
+    font-weight: 600;
+}
+
+#inte{
+    font-size: 2em;
+    display: inline-block;
+    max-width: 500px;
+    margin: 15px;
+    color: #fbfbfb;
+    text-shadow: 0px 2px 3px rgb(82, 82, 82);
+    font-family: Tahoma;
+}
+
+#wallpaper2{
+    height: 800px;
+    padding-top: 80px;
+    padding-left: 10px;
+    background-image: url("https://wiki.teamfortress.com/w/images/c/c3/Pl_swiftwater.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+#about{
+    font-size: 3em;
+    color: #fbfbfb;
+    font-family: 'Lucida Sans Unicode';
+    font-weight: 600;
+    text-decoration: underline;
+    text-shadow: 0px 2px 7px rgb(82, 82, 82) ;
+}
+
+#description{
+    font-size: 2em;
+    color: #fbfbfb;
+    font-family: 'Lucida Sans Unicode';
+    text-shadow: 0px 2px 7px rgb(82, 82, 82) ;
+}
+footer{
+    height: 30px;
+    background-color:rgb(114, 118, 122);
+    text-align: center;
+    padding: 30px;
+    color: aliceblue;
+}
